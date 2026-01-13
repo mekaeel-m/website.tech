@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mekaeel Malik | Portfolio</title>
+  <meta name="description" content="Mekaeel Malik — Software Engineer and Computer Science student at McMaster University. Projects, experience, and resume." />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="brand-mark" aria-hidden="true">MM</span>
+        <span class="brand-text">Mekaeel Malik</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a class="nav-link" href="#home" data-nav="home">Home</a>
+        <a class="nav-link" href="#projects" data-nav="projects">Projects</a>
+        <a class="nav-link" href="#experience" data-nav="experience">Experience</a>
+        <a class="nav-link nav-link-cta" href="#resume" data-nav="resume">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="page">
+    <section class="hero section" data-section="home" aria-label="Home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Software Engineer</p>
+          <h1 class="headline">Mekaeel Malik</h1>
+          <p class="subhead">
+            Computer Science student at <strong>McMaster University</strong> (Minor in Innovation), building scalable backend services,
+            polished web apps, and applied ML tools.
+          </p>
+
+          <div class="meta-row" role="list">
+            <div class="meta-pill" role="listitem">
+              <span class="meta-label">Based in</span>
+              <span class="meta-value">Hamilton / Toronto, ON</span>
+            </div>
+            <div class="meta-pill" role="listitem">
+              <span class="meta-label">Email</span>
+              <a class="meta-value" href="mailto:mekaeel.r.malik@gmail.com">mekaeel.r.malik@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">View my work</a>
+            <a class="btn btn-ghost" href="#experience">My experience</a>
+            <a class="btn btn-secondary" href="#resume">Resume</a>
+          </div>
+
+          <div class="link-row" aria-label="Links">
+            <a class="icon-link" href="https://github.com/mekaeel-m" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="icon-link" href="https://www.linkedin.com/in/mekaeel-m/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="mini-section mini-section-inline" aria-label="Technical focus">
+            <h2 class="mini-title">Technical focus</h2>
+            <div class="tag-row" aria-label="Top skills">
+              <span class="tag">Java</span>
+              <span class="tag">Spring</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">React</span>
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-portrait" aria-label="Portrait">
+          <div class="portrait-frame" data-portrait-frame>
+            <img
+              class="portrait-img"
+              data-portrait
+              src="assets/unnamed.jpg"
+              alt="Portrait of Mekaeel Malik"
+              loading="eager"
+              decoding="async"
+            />
+            <div class="portrait-fallback" aria-hidden="true">
+              <span class="portrait-initials">MM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" data-section="projects" aria-label="Projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-desc">A few things I’ve built recently.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">RapidReport</h3>
+              <p class="card-kicker">DeltaHacks 2025</p>
+            </div>
+            <p class="card-body">
+              Accessibility reporting web app that turns image uploads + prompts into professional emails,
+              then routes reports to the nearest relevant recipients.
+            </p>
+            <div class="tag-row" aria-label="Tech stack">
+              <span class="tag">Next.js</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">Cohere</span>
+              <span class="tag">Google API</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">Plant Pals</h3>
+              <p class="card-kicker">Hack the North 2022</p>
+            </div>
+            <p class="card-body">
+              IoT plant monitoring system that connects Arduino sensors to a simple web dashboard for at-a-glance health monitoring.
+            </p>
+            <div class="tag-row" aria-label="Tech stack">
+              <span class="tag">Arduino</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section" data-section="experience" aria-label="Experience">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-desc">Where I’ve worked and what I’ve shipped.</p>
+        </div>
+
+        <div class="stack">
+          <article class="role">
+            <div class="role-head">
+              <div>
+                <h3 class="role-title">Software Engineer Intern / Coop</h3>
+                <p class="role-meta">TD Bank Canada · Hybrid / Toronto, ON</p>
+              </div>
+              <p class="role-dates">May 2025 – Aug 2025</p>
+            </div>
+            <ul class="bullets">
+              <li>Built and deployed a Spring-based REST API for on-demand event processing supporting <strong>100,000+ monthly</strong> authentication requests.</li>
+              <li>Cut API load time by <strong>50%</strong> by identifying bottlenecks and implementing <strong>pre-caching</strong> with Spring Data.</li>
+              <li>Reduced data overload via <strong>database normalization</strong>, shrinking DB size by <strong>10%+</strong> and response size by <strong>5%</strong>.</li>
+              <li>Helped consolidate adapter sub-calls, reducing unnecessary sub-calls by <strong>60%</strong>.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <div class="role-head">
+              <div>
+                <h3 class="role-title">Undergraduate Research Assistant</h3>
+                <p class="role-meta">McMaster University · Hamilton, ON</p>
+              </div>
+              <p class="role-dates">Aug 2025 – Present</p>
+            </div>
+            <ul class="bullets">
+              <li>Designed ML models predicting NBA player injury risk to produce actionable insights for performance and risk management.</li>
+              <li>Collected datasets via web/API sources using <strong>Selenium</strong> and Beautiful Soup; cleaned/merged in <strong>SQL</strong>.</li>
+              <li>Trained and evaluated scikit-learn models on <strong>10,000+</strong> game logs and injury reports.</li>
+              <li>Contributed to a forthcoming publication by documenting methodology, results, and recommendations.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <div class="role-head">
+              <div>
+                <h3 class="role-title">Software Developer — Summer Intern</h3>
+                <p class="role-meta">Infinite Investment Systems · Toronto, ON</p>
+              </div>
+              <p class="role-dates">Jul 2024 – Aug 2024</p>
+            </div>
+            <ul class="bullets">
+              <li>Implemented browser-based testing for internal sites using Selenium, increasing test coverage by <strong>30%</strong>.</li>
+              <li>Wrote integration tests for API endpoints using the Requests library, decreasing runtime by ~<strong>10ms</strong>.</li>
+              <li>Generated large-scale test data using Faker and Pandas (50+ GB) to meet internal testing needs.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <div class="role-head">
+              <div>
+                <h3 class="role-title">Database Administrator</h3>
+                <p class="role-meta">Penny Appeal Canada · Mississauga, ON</p>
+              </div>
+              <p class="role-dates">Jun 2022 – Sept 2022</p>
+            </div>
+            <ul class="bullets">
+              <li>Managed CRM data migration and automated workflows using <strong>UIPath RPA</strong>.</li>
+              <li>Supported website campaigns and strengthened front-end fundamentals with HTML/CSS.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="split">
+          <section class="panel" aria-label="Education">
+            <h3 class="panel-title">Education</h3>
+            <div class="panel-body">
+              <p class="panel-strong">McMaster University · Hamilton, ON</p>
+              <p class="panel-muted">Bachelor of Computer Science (in progress), Minor in Innovation · MES Council Representative</p>
+              <p class="panel-muted">Sept 2024 – Present</p>
+              <p class="panel-muted">Key courses: Software Development, Data Structures &amp; Algorithms, Web Development, Logical Reasoning</p>
+            </div>
+          </section>
+
+          <section class="panel" aria-label="Technical Skills">
+            <h3 class="panel-title">Technical Skills</h3>
+            <div class="panel-body">
+              <p><strong>Languages:</strong> Python, Java, C, PostgreSQL, JavaScript, TypeScript, HTML/CSS</p>
+              <p><strong>Tools:</strong> Git, VS Code, Cursor, GitHub, Visual Studio, PyCharm, JIRA, Jupyter Notebook</p>
+              <p><strong>Libraries:</strong> Pandas, NumPy, Matplotlib, Selenium, Dask, Beautiful Soup, Faker, Requests, Spring Framework, React</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section" data-section="resume" aria-label="Resume">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Resume</h2>
+          <p class="section-desc">Download my resume as a PDF.</p>
+        </div>
+
+        <div class="card-grid">
+          <a class="card card-link" href="assets/MekaeelMalikResume.pdf" download="MekaeelMalikResume.pdf" data-resume-pdf>
+            <div class="card-top">
+              <h3 class="card-title">Resume (PDF)</h3>
+              <p class="card-kicker">Download</p>
+            </div>
+            <p class="card-body">Click to download the PDF.</p>
+            <span class="card-action">Download →</span>
+          </a>
+        </div>
+
+        <div class="contact-card" aria-label="Contact">
+          <h3 class="contact-title">Contact</h3>
+          <div class="contact-grid">
+            <a href="mailto:mekaeel.r.malik@gmail.com">mekaeel.r.malik@gmail.com</a>
+            <a href="https://github.com/mekaeel-m" target="_blank" rel="noreferrer">github.com/mekaeel-m</a>
+            <a href="https://www.linkedin.com/in/mekaeel-m/" target="_blank" rel="noreferrer">linkedin.com/in/mekaeel-m</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-muted">&copy; <span id="year"></span> Mekaeel Malik</p>
+      <a class="to-top" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
